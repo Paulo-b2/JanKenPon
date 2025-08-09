@@ -23,7 +23,7 @@ public class SelvageriaPlayer extends AbstractPlayer {
 
     @Override
     public Move makeMyMove(Move opponentPreviousMove) {
-        //Começo sempre jogando Tesoura
+        //Começo sempre jogando Pedra
         if (opponentPreviousMove == Move.NONE) {
             return Move.ROCK;
         }
